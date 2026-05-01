@@ -28,6 +28,6 @@ https://www.npmjs.com/package/@overextended/ox_lib
 
 - Install [Lua Language Server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) to ease development with annotations, type checking, diagnostics, and more.
 - Install [CfxLua IntelliSense](https://marketplace.visualstudio.com/items?itemName=overextended.cfxlua-vscode) to add natives and cfxlua runtime declarations to LLS.
-  - **Recommended:** Make sure to use this actively maintained Overextended version, not the deprecated standalone CfxLua extension.
+  - **Recommended Alternative:** For a fully global workspace setup without relying on the extension, you can manually clone and link the [fivem-lls-addon](https://github.com/overextended/fivem-lls-addon) in your VS Code `userThirdParty` settings.
 - You can load ox_lib into your global development environment by modifying workspace/user settings "Lua.workspace.library" with the resource path.
   - e.g. "c:/fxserver/resources/ox_lib"

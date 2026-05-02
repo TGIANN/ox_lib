@@ -43,10 +43,6 @@ client_scripts {
 server_scripts {
     'imports/callback/server.lua',
     'imports/getFilesInDirectory/server.lua',
-    'imports/spawnEntity/server.lua',
-    'imports/createObject/server.lua',
-    'imports/createPed/server.lua',
-    'imports/createVehicle/server.lua',
     'resource/**/server.lua',
     'resource/**/server/*.lua',
 }
